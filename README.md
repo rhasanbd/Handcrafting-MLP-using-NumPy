@@ -2,9 +2,9 @@
 
 
 
-In this notebook series, we  create a single hidden-layer MLP for performing **Binary Classification** on a synthetic dataset. The backpropagation algorithm is implemented using the batch Gradient Descent. 
+In this notebook series, we will create a single hidden-layer MLP for performing **Binary Classification** on a synthetic dataset. The backpropagation algorithm is implemented using the batch Gradient Descent. 
 
-- We will use only the NumPy python library for creating the MLP model.
+We will **use only the NumPy python library** for creating the MLP model. For the implementation, the notebooks provide pseudocode description of the backpropagation algorithm. A user will have to provide the NumPy implemention.
 
 
 ## MLP Architecture
@@ -25,7 +25,7 @@ The main difference between notebook 1 and 2 is in their implementation of the b
     Notebook 1: MLP-Handcrafting-I
 
 
-### Bias weights
+##### Bias weights
 Neurons in the hidden layer and the final layer will have a bias weight. For example:
 - Hidden layer: the 4 neurons in the hidden layer will have 4 bias weights. 
 - Final layer: the single neuron in the final layer will have a bias weight. 
@@ -34,10 +34,10 @@ These bias weights are added as a separate row in the weight matrices for the hi
 
 
 
-  Notebook 2: MLP-Handcrafting-II-Separate Bias Calculation
+    Notebook 2: MLP-Handcrafting-II-Separate Bias Calculation
 
 
-### Bias weights
+##### Bias weights
 The bias weights for the hidden layer and the final layer neurons are **computed separately**.
 - Hidden layer: each of the 4 neurons in the hidden layer will have a bias weight. Thus, the hidden layer bias weight should be a (4 x 1) array
 - Final layer: the single neuron in the final layer will have a bias weight. Thus, the final layer bias weight should be a (1 x 1) array
