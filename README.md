@@ -22,7 +22,7 @@ There are 3 notebooks in this repository.
 The main difference between notebook 1 and 2 is in their implementation of the bias weights.
 
 
-    Notebook 1: MLP-Handcrafting-I
+        Notebook 1: MLP-Handcrafting-I
 
 
 ##### Bias weights
@@ -34,7 +34,7 @@ These bias weights are added as a separate row in the weight matrices for the hi
 
 
 
-    Notebook 2: MLP-Handcrafting-II-Separate Bias Calculation
+        Notebook 2: MLP-Handcrafting-II-Separate Bias Calculation
 
 
 ##### Bias weights
@@ -44,7 +44,7 @@ The bias weights for the hidden layer and the final layer neurons are **computed
 
 
 
-    Notebook 3: MLP-Handcrafting-III-Cross-Entropy Loss
+        Notebook 3: MLP-Handcrafting-III-Cross-Entropy Loss
    
 Unlike the previous two notebooks, we will use the **binary cross-entropy** as the loss function. The model should converge faster than the previous two cases.
 
