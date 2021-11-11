@@ -41,3 +41,13 @@ These bias weights are added as a separate row in the weight matrices for the hi
 The bias weights for the hidden layer and the final layer neurons are **computed separately**.
 - Hidden layer: each of the 4 neurons in the hidden layer will have a bias weight. Thus, the hidden layer bias weight should be a (4 x 1) array
 - Final layer: the single neuron in the final layer will have a bias weight. Thus, the final layer bias weight should be a (1 x 1) array
+
+
+
+    Notebook 3: MLP-Handcrafting-III-Cross-Entropy Loss
+   
+Unlike the previous two notebooks, we will use the **binary cross-entropy** as the loss function. The model should converge faster than the previous two cases.
+
+The bias weights will be implemented similar to notebook 1.
+
+
