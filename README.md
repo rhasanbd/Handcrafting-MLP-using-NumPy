@@ -30,7 +30,7 @@ Neurons in the hidden layer and the final layer will have a bias weight. For exa
 - Hidden layer: the 4 neurons in the hidden layer will have 4 bias weights. 
 - Final layer: the single neuron in the final layer will have a bias weight. 
 
-These bias weights are added as a separate row in the weight matrices for the hidden layer and the final layer. Consequently, both in the hidden layer and in the final layer, a bias neuron is added with the feature neurons. This is done by adding a column of 1s with the input data and the hidden layer activation signal data.
+These bias weights are added as a separate row in the weight matrices for the hidden layer and the final layer. Consequently, both in the input and the hidden layer, a bias neuron is added with the feature neurons. This is done by adding a column of 1s with the input data and the hidden layer activation signal data.
 
 
 
